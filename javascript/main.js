@@ -22,11 +22,11 @@ const app = createApp({
                     name: "js"
                 },
                 {
-                    displayIcon: "https://assets.stickpng.com/images/62a74f85223343fbc2207d05.png",
+                    displayIcon: "../imagenes/vue_js.png",
                     name: "vue"
                 },
                 {
-                    displayIcon: "https://assets.stickpng.com/images/62a76468bd73a4af5c5d4fb7.png",
+                    displayIcon: "../imagenes/bootstrap.png",
                     name: "bootstrap"
                 }
             ],
