@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica&family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/1150/1150635.png">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <title>Curriculum Vitae</title>
+</head>
+
+<body>
+    <header class="">
+
+        <section class="d-flex justify-content-lg-evenly  align-items-lg-center flex-column flex-lg-row">
+            <div class="mx-5">
+                <div class="m-auto" id="photo-perfil">
+                </div>
+
+                <h1 class="text-center fw-bold">
+                    Jeison Ramos Jacome
+                </h1>
+                <h3 class="text-center fw-bold">
+                    Desarrollador FronEnd
+                </h3>
+
+                <h6 class="text-center fw-bold">
+                    Email: 📨
+                    <a href="mailto:jeisonjacome@gmail.com">jeisonjacome@gmail.com</a>
+                </h6>
+                <h6 class="text-center fw-bold">
+                    Celular Whatsapp: 📱
+                    <a href="https://wa.link/sp5nxv"> +57 3243159263 </a>
+                </h6>
+            </div>
+            <div class="rounded-5 m-5 p-5">
+                <h2 class="text-center fw-bold pb-4 display-4">
+                    Skills
+                </h2>
+                <div class="fs-5">
+                    <ul>
+                        <li>Problem resolution</li>
+                        <li>Web design</li>
+                        <li>Responsive web design</li>
+                        <li>Dynamic web design</li>
+                        <li>Teamwork</li>
+                        <li>Using git and gitHub</li>
+                    </ul>
+
+                    <p>
+                        Page created from scratch, I share the gitHub of the complete code of this page
+                        <a href="">Enlace GitHub</a>
+                    </p>
+                    <h4 class="text-center fw-bold">
+                        Certification
+                    </h4>
+                    <div data-iframe-width="150" data-iframe-height="270"
+                        data-share-badge-id="fa0b4d09-f1d8-42de-bd05-1fafa847a5da"
+                        data-share-badge-host="https://www.credly.com"></div>
+                    <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <main id="app">
+        <section class="pb-5">
+            <h2 class="pb-5 text-center fw-bold display-3">
+                knowledge
+            </h2>
+            <div class="row   d-xl-flex flex-wrap justify-content-xl-center align-items-xl-center">
+                <div v-for="img in imgs" class="col-lg-3">
+                    <div class="card m-auto w-75  border-0">
+                        <img class="img-card m-2 fondo img-fluid rounded-5" :src="img.displayIcon" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p class="text-center">
+            Created by Jeison Ramos (Xedoor)
+        </p>
+    </footer>
+
+    <script src="./javascript/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
